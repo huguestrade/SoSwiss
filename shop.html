@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'achat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap" rel="stylesheet">
+    <style>
+        header nav {
+            background-color: black;
+
+        }
+
+        .navigation-bar ul {
+            position: relative;
+        }
+
+        header {
+            background-color: black;
+        }
+
+        nav li {
+            margin-left: 200px;
+        }
+
+        .texte h1,
+        p {
+            color: black;
+            font-family: 'Public Sans', sans-serif;
+        }
+
+        .texte p {
+            margin-left: 100px;
+        }
+
+        .navigation-bar h2,
+        h3 {
+            color: #dcc14c;
+            margin-left: 50px;
+        }
+
+        .navigation-bar h3 {
+            font-family: cmmi10;
+        }
+
+        .navigation-bar {
+            display: flex;
+            height: 120px;
+        }
+
+        .slogan {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            height: 120px;
+
+        }
+
+        .slogan img {
+            width: 100%;
+        }
+
+        .articles p {
+            color: black;
+        }
+
+        .articles {
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+        }
+
+        .dudessus {
+            display: flex;
+            flex-direction: row;
+            margin-left: 300px;
+        }
+
+        .dudessous {
+            display: flex;
+            flex-direction: row;
+            margin-left: 300px;
+        }
+
+        .articleseul {
+            padding: 20px;
+        }
+
+        .colorbox {
+            box-sizing: border-box;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+        }
+
+        .rond {
+            border-color: black;
+            border-width: 1px;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+            margin-left: 5px;
+            margin-bottom: 7px;
+        }
+
+        .colordudessus {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .colordudessous {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .commandes {
+            display: flex;
+            flex-direction: column;
+            margin-left: 70px;
+        }
+
+        .commandes p {
+            font-size: 18px;
+        }
+
+        .dubas {
+            display: block;
+            margin: auto;
+            background: rgb(0, 0, 0);
+            width: 298px;
+            height: 50px;
+            margin-top: 50px;
+            font-size: 16px;
+            margin-bottom: 100px;
+        }
+
+        .dubas p {
+            color: #dcc14c;
+        }
+
+        .listederoulante {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-end;
+            border-radius: 100%;
+            width: 160px;
+            height: 37px;
+            margin-top: 50px;
+        }
+
+        .toussaufun {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tous {
+            display: flex;
+            max-width: 100%;
+        }
+
+        @media (max-width: 769px) {
+            .color {
+                display: flex;
+            }
+
+            .checkbox {
+                display: flex;
+            }
+
+            .listederoulante {
+                position: absolute;
+                align-self: flex-start;
+                margin-left: 30px;
+            }
+
+            .dudessous {
+                flex-direction: column;
+                margin-left: 20px;
+            }
+
+            .dudessus {
+                flex-direction: column;
+                margin-left: 20px;
+            }
+
+            .tous {
+                flex-direction: column;
+            }
+
+        }
+
+        .navigation-bar li {
+            color: black;
+        }
+
+        .navigation-bar li p {
+            color: white;
+            font-family: 'Public Sans', sans-serif;
+            font-size: 26px;
+        }
+
+        body {
+            font-family: 'Public Sans';
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            font-family: 'Semi Bold';
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: black;
+        }
+
+        textarea {
+            margin-top: 20px;
+        }
+
+        footer ul {
+            list-style-type: none;
+        }
+
+        footer li,
+        h2 {
+            color: white;
+            font-family: 'Public Sans', sans-serif;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .f1 {
+            padding-right: 120px;
+        }
+
+        .f2 {
+            padding-left: 120px;
+        }
+
+        .centrage {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+        @media (max-width: 769px) {
+
+            .navigation-bar {
+                display: none;
+            }
+
+            footer {
+                display: flex;
+                flex-direction: column;
+            }
+
+            footer h2 {
+                padding-top: 10px;
+            }
+
+            .f1 {
+                padding: 20px;
+            }
+
+            .f2 {
+                padding: 20px;
+            }
+
+
+        }
+
+        .smartphone {
+            height: 120px;
+            background-color: black;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+
+        .menu-button {
+            background-color: black;
+            border: 0;
+        }
+
+        .iconmenu {
+            width: 100px;
+        }
+
+        .menu-container {
+            padding: 0;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown-menu {
+            width: 110px;
+            height: 165px;
+            display: none;
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            background-color: black;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-menu a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .dropdown-menu a:hover {
+            background-color: #ddd;
+        }
+
+        .menu-container:hover .dropdown-menu {
+            display: block;
+        }
+
+        @media (min-width:769px) {
+            .smartphone {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navigation-bar">
+                <div class="slogan">
+                    <img src="./Static/img/Logo_SoSwiss.png">
+                </div>
+                <ul style="display: flex;">
+                    <li><a href="index.html" style="text-decoration: none;">
+                            <p>Accueil</p><span class="underline"></span>
+                        </a></li>
+                    <li><a href="active" style="text-decoration: none;">
+                            <p>Article</p><span class="underline"></span>
+                        </a></li>
+                    <li><a href="Panier.html" style="text-decoration: none;">
+                            <p>Panier</p><span class="underline"></span>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="smartphone">
+                <div>
+                    <div class="menu-container">
+                        <button class="menu-button">
+                            <img class="iconmenu" src="Static/img/iconmenu.png" alt="">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <a href="index.html"
+                                style="font-size: 30px;  color: white; font-family: 'Public Sans', sans-serif; ">Accueil</a>
+                            <a href="shop.html"
+                                style="font-size: 30px; color: white; font-family: 'Public Sans', sans-serif;">Article</a>
+                            <a href="Panier.html"
+                                style="font-size: 30px; color: white; font-family: 'Public Sans', sans-serif;">Panier</a>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+
+    </header>
+    <div class="texte">
+        <h1>Coin achat</h1>
+        <p>Les meilleurs saucisses de luxe de chez SoSwiss.</p>
+        <p>Découvrez notre meilleur selection de saucisses.</p>
+    </div>
+
+    <div class="tous">
+        <div class="commandes">
+            <h1 style="width:30px;">Filtres</h1>
+            <strong>
+                <p style="color: black; width: 25px;">Catégories</p>
+            </strong>
+            <div class="checkbox">
+
+                <div>
+                    <input type="checkbox" />
+                    <label for="scales">Homme</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" />
+                    <label for="horns">Femme</label>
+                </div>
+                <div>
+                    <input type="checkbox" />
+                    <label for="scales">Chien</label>
+                </div>
+            </div>
+            <div class="boxcolor">
+                <strong>
+                    <p style="color: black;">Couleurs</p>
+                </strong>
+                <div class="color">
+                    <div class="colordudessus">
+                        <button class="rond" style="background: orange;"></button>
+                        <button class="rond" style="background: rgb(255, 106, 0);"></button>
+                        <button class="rond" style="background: rgb(175, 26, 26);"></button>
+                        <button class="rond" style="background: rgb(128, 117, 0);"></button>
+                    </div>
+                    <div class="colordudessous">
+                        <button class="rond" style="background: yellow;"></button>
+                        <button class="rond" style="background: red;"></button>
+                        <button class="rond" style="background: black;"></button>
+                        <button class="rond" style="background: white;"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="toussaufun">
+            <div class="listederoulante">
+                <select>
+                    <option value="" style="font-size: 26px;">
+                        <p>Trié par</p>
+                    </option>
+                    <option value="">Plus populaire</option>
+                    <option value="">Prix</option>
+                    <option value="">Nouveauté</option>
+                </select>
+                <p style="color: black;">100 produits</p>
+
+            </div>
+            <div class="articles">
+                <div class="dudessus">
+                    <div class="articleseul">
+                        <a href="pageProduit.html"><img src="./Static/img/Musclé.png" height="200" width="200"></a>
+                        <p>La "Musclé"</p>
+                        <p>699 €</p>
+                    </div>
+                    <div class="articleseul">
+                        <a href="pageProduit.html"><img src="./Static/img/DoggyStyle.png" height="200" width="200"></a>
+                        <p>La "DoggyStyle"</p>
+                        <p>399 €</p>
+                    </div>
+                    <div class="articleseul">
+                        <a href="pageProduit.html"><img src="./Static/img/dorée.jpeg" height="200" width="200"></a>
+                        <p>La "Dorée"</p>
+                        <p>1599 €</p>
+                    </div>
+                </div>
+                <div class="dudessous">
+                    <div class="articleseul">
+                        <a href="pageProduit.html"><img src="./Static/img/Confort.jfif" height="200" width="200"></a>
+                        <p>La "Confort"</p>
+                        <p>499 €</p>
+                    </div>
+                    <div class="articleseul">
+                        <a href="pageProduit.html"><img src="./Static/img/Marbre.jfif" height="200" width="200"></a>
+                        <p>La "De marbre"</p>
+                        <p>799 €</p>
+                    </div>
+                    <div class="articleseul">
+                        <a href="pageProduit.html"><img src="./Static/img/Ornée.jfif" height="200" width="200"></a>
+                        <p>La "Ornée"</p>
+                        <p>1099 €</p>
+                    </div>
+                </div>
+                <button class="dubas">
+                    <p>Plus d'articles</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contact col">
+            <h2 class="centrage">Contacter nous</h2>
+
+            <textarea name="email" id="email" cols="30" rows="1">Ecrivez votre message...</textarea>
+
+        </div>
+        <section class="footer">
+            <div class="f1 col">
+                <h2 class="centrage">Magazin</h2>
+                <ul>
+                    <li>Hommes</li>
+                    <li>Femmes</li>
+                    <li>Chien</li>
+                    <li>Bijoux</li>
+                    <li>Accessoire</li>
+                    <li>Carte Cadeau</li>
+                </ul>
+            </div>
+
+            <div class="f2 col">
+                <h2 class="centrage">Besoin d'aide ?</h2>
+                <ul>
+                    <li>Faq</li>
+                    <li>Carte</li>
+                    <li>Mention Légal</li>
+
+                </ul>
+
+            </div>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

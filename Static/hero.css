@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+}
+
+main {
+    background: linear-gradient(to right, lightgray, white, lightgray);
+
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btntitre {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    border: 41;
+    border-color: black;
+    margin: 20px;
+    width: 120px;
+    height: 30px;
+}
+
+.max {
+    text-align: center;
+    color: black;
+}
+
+.btntitre :hover {
+    color: #dcc14c;
+
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 10px;
+}
+
+.photoA {
+    width: 34.375em;
+    padding-bottom: 30px;
+
+
+}
+
+.photoC {
+    width: 250px;
+    height: 200px;
+    max-height: 200px;
+    padding: 10px;
+}
+
+.contenu {
+    display: flex;
+    padding-bottom: 20px;
+
+
+}
+
+.fleche-droite {
+    background-color: black;
+    color: aliceblue;
+}
+
+.fleche-gauche {
+    background-color: black;
+    color: aliceblue;
+}
+
+.fleche-droite :hover {
+    background-color: #dcc14c;
+}
+
+.fleche-gauche :hover {
+    background-color: #dcc14c;
+}
+
+
+
+
+.navigation-bar li {
+    color: black;
+}
+
+.navigation-bar li p {
+    color: white;
+    font-size: large;
+}
+
+header nav {
+    background-color: black;
+
+}
+
+.navigation-bar ul {
+    position: relative;
+}
+
+header {
+    background-color: black;
+}
+
+nav li {
+    margin-left: 200px;
+}
+
+.navigation-bar h2,
+h3 {
+    color: rgb(255, 204, 0);
+    margin-left: 50px;
+}
+
+.navigation-bar h3 {
+    font-family: cmmi10;
+}
+
+.navigation-bar {
+    display: flex;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.conf {
+    color: black;
+}
+
+textarea {
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li,
+h2 {
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.f1 {
+    padding-right: 120px;
+}
+
+.f2 {
+    padding-left: 120px;
+}
+
+.centrage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 769px) {
+
+    .navigation-bar {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    footer h2 {
+        padding-top: 10px;
+    }
+
+    .f1 {
+        padding: 20px;
+    }
+
+    .f2 {
+        padding: 20px;
+    }
+
+    .photoA {
+        width: 20em;
+        padding-bottom: 30px;
+
+
+    }
+
+    .contenu {
+        padding-bottom: 20px;
+    }
+
+
+}
+
+.smartphone {
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu-button {
+    background-color: black;
+    border: 0;
+}
+
+.iconmenu {
+    width: 100px;
+}
+
+.menu-container {
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    width: 110px;
+    height: 165px;
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ddd;
+}
+
+.menu-container:hover .dropdown-menu {
+    display: block;
+}
+
+
+@media (min-width:769px) {
+    .smartphone {
+        display: none;
+    }
+}
+
+#Logo_SoSwiss {
+    width: 20%;
+    display: flex;
+    justify-self: center;
+}

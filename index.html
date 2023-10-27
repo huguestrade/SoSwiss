@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Static/hero.css">
+    <title>acceuil</title>
+</head>
+
+
+<body>
+
+    <header>
+        <nav>
+            <div class="ordinateur">
+                <div class="navigation-bar">
+                    <div class="slogan">
+                        <img id="Logo_SoSwiss" src="Static/img/Logo_SoSwiss.png" alt="">
+                    </div>
+                    <ul style="display: flex;">
+                        <li><a href="index.html" style="text-decoration: none;">
+                                <p>Accueil</p><span class="underline"></span>
+                            </a></li>
+                        <li><a href="shop.html" style="text-decoration: none;">
+                                <p>Article</p><span class="underline"></span>
+                            </a></li>
+                        <li><a href="Panier.html" style="text-decoration: none;">
+                                <p>Panier</p><span class="underline"></span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="smartphone">
+                <div>
+                    <div class="menu-container">
+                        <button class="menu-button">
+                            <img class="iconmenu" src="Static/img/iconmenu.png" alt="">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <a href="index.html"
+                                style="font-size: 30px;  color: white; font-family: 'Public Sans', sans-serif; ">Accueil</a>
+                            <a href="shop.html"
+                                style="font-size: 30px; color: white; font-family: 'Public Sans', sans-serif;">Article</a>
+                            <a href="Panier.html"
+                                style="font-size: 30px; color: white; font-family: 'Public Sans', sans-serif;">Panier</a>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+
+    <main class="titre">
+        <h1 class="centrage">SoSwiss</h1>
+        <h2 class="centrage max">Jamais vous n'auriez cru autant les aimer</h2>
+
+        <button class="btntitre">
+            <a href="./shop.html"> Voir nos Saucisse</a>
+        </button>
+
+
+        <img class="photoA" src="./Static/img/saucisseA.jpg" alt="photo page d'acceuil">
+
+        <div id="caroussel">
+
+            <h2 class="conf centrage">Ils nous font Confiance</h2>
+            <div class="contenu">
+                <button id="fleche-gauche" class="fleche-gauche">
+                    <- </button>
+                        <div class="centrage">
+                            <img class="photoC centrage" id="image" class="image">
+                        </div>
+                        <button id="fleche-droite" class="fleche-droite">
+                            ->
+                        </button>
+            </div>
+            <script defer src="Static/carrousel.js"></script>
+
+    </main>
+
+    <footer>
+        <div class="contact col">
+            <h2 class="centrage">Contacter nous</h2>
+
+            <textarea name="email" id="email" cols="30" rows="1">Ecrivez votre message...</textarea>
+
+        </div>
+        <section class="footer">
+            <div class="f1 col">
+                <h2 class="centrage">Magazin</h2>
+                <ul>
+                    <li>Hommes</li>
+                    <li>Femmes</li>
+                    <li>Chien</li>
+                    <li>Bijoux</li>
+                    <li>Accessoire</li>
+                    <li>Carte Cadeau</li>
+                </ul>
+            </div>
+
+            <div class="f2 col">
+                <h2 class="centrage">Besoin d'aide ?</h2>
+                <ul>
+                    <li>Faq</li>
+                    <li>Carte</li>
+                    <li>Mention Légal</li>
+
+                </ul>
+
+            </div>
+        </section>
+
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soswiss</title>
+    <link rel="stylesheet" type="text/css" href="Static/panier.css">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="ordinateur">
+                <div class="navigation-bar">
+                    <div class="slogan">
+                        <img src="Static/img/Logo_SoSwiss.png" alt="">
+                    </div>
+                    <ul style="display: flex;">
+                        <li><a href="index.html" style="text-decoration: none;">
+                                <p>Accueil</p><span class="underline"></span>
+                            </a></li>
+                        <li><a href="shop.html" style="text-decoration: none;">
+                                <p>Article</p><span class="underline"></span>
+                            </a></li>
+                        <li><a href="Panier.html" style="text-decoration: none;">
+                                <p>Panier</p><span class="underline"></span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="smartphone">
+                <div>
+                    <div class="menu-container">
+                        <button class="menu-button">
+                            <img class="iconmenu" src="Static/img/iconmenu.png" alt="">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <a href="index.html"
+                                style="font-size: 30px;  color: white; font-family: 'Public Sans', sans-serif; ">Accueil</a>
+                            <a href="shop.html"
+                                style="font-size: 30px; color: white; font-family: 'Public Sans', sans-serif;">Article</a>
+                            <a href="Panier.html"
+                                style="font-size: 30px; color: white; font-family: 'Public Sans', sans-serif;">Panier</a>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <br>
+    <div class="Premiere">
+        <div class="text gauche">
+            <h1 class="bloc">
+                Votre panier
+            </h1>
+            <h1 class="bloc1">
+                Vous voulez ajouter des articles? <a href="shop.html"
+                    style="color: black; font-family: 'Public Sans', sans-serif; font-size: 18px;">Continuez vos
+                    achats</a>
+            </h1>
+            <div class="article1">
+                <div class="choix">
+                    <img src="Static/img/DoggyStyle.png" alt="">
+                </div>
+                <div class="choix">
+                    <div class="information">
+                        <b>La "DoggyStyle"</b>
+                    </div>
+                    <div class="information">
+                        <p>Taille: XS</p>
+                    </div>
+                    <div class="information">
+                        <p>Quantité: 1</p>
+                    </div>
+                    <div class="information">
+                        <b>399 €</b>
+                        <p class="remove">Retirer</p>
+                    </div>
+                </div>
+            </div>
+            <hr width="100%" size="2px" color="#252424">
+            <div class="article2">
+                <div class="choix">
+                    <img src="Static/img/Dorée.jpeg" alt="">
+                </div>
+                <div class="choix">
+                    <div class="information">
+                        <b>La "Dorée"</b>
+                    </div>
+                    <div class="information">
+                        <p>Taille: L</p>
+                    </div>
+                    <div class="information">
+                        <p>Quantité: 1</p>
+                    </div>
+                    <div class="information">
+                        <b>1599 €</b>
+                        <p class="remove">Retirer</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="text droite">
+            <h1 class="bloc2">
+                Commande:
+            </h1>
+            <input type="text" class="coupon" placeholder="      Entrer un bon de réduction">
+            <div class="prix">
+                <p class="gras"><strong>Total</strong></p>
+                <p class="gras"><strong>1 998€</strong></p>
+            </div>
+            <div class="prix">
+                <p class="gras"><strong>Expédition</strong></p>
+                <p class="clairprix">Dans l'étape suivante</p>
+            </div>
+
+            <hr width="100%" size="2px" color="#252424">
+            <div class="prix">
+                <p class="gras"><strong>Prix</strong></p>
+                <p class="gras"><strong>1 998 €</strong></p>
+            </div>
+            <input type="button" class="bouton" value="Continuer à payer" />
+        </div>
+        <div class="Orderinformation">
+            <div class="toutdedans">
+                <h1 class="bloc2">
+                    Information de commande
+                </h1>
+                <h2 class="final">
+                    <hr width="100%" size="2px" color="#252424">
+                    <p class="clair">Politique de retour</p>
+                    <p class="clair">-</p>
+                    <p class="clair">Aucun remboursement possible pour les saucisses</p>
+                    <hr width="100%" size="2px" color="#a09c9c">
+                    <p class="clair">Option d'expédition</p>
+                    <p class="clair">+</p>
+                    <hr width="100%" size="2px" color="#a09c9c">
+                    <p class="clair">Option d'expédition</p>
+                    <p class="clair">+</p>
+                    <hr width="100%" size="2px" color="#a09c9c">
+
+                </h2>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <div class="contact col">
+            <h2 class="centrage">Contacter nous</h2>
+
+            <textarea name="email" id="email" cols="30" rows="1">Ecrivez votre message...</textarea>
+
+        </div>
+        <section class="footer">
+            <div class="f1 col">
+                <h2 class="centrage">Magazin</h2>
+                <ul>
+                    <li>Hommes</li>
+                    <li>Femmes</li>
+                    <li>Chien</li>
+                    <li>Bijoux</li>
+                    <li>Accessoire</li>
+                    <li>Carte Cadeau</li>
+                </ul>
+            </div>
+
+            <div class="f2 col">
+                <h2 class="centrage">Besoin d'aide ?</h2>
+                <ul>
+                    <li>Faq</li>
+                    <li>Carte</li>
+                    <li>Mention Légal</li>
+
+                </ul>
+
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,353 @@
+.navigation-bar li {
+    color: black;
+}
+
+.navigation-bar li p {
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 26px;
+}
+
+header nav {
+    background-color: black;
+
+}
+
+.navigation-bar ul {
+    position: relative;
+}
+
+header {
+    background-color: black;
+}
+
+nav li {
+    margin-left: 200px;
+}
+
+.navigation-bar {
+    display: flex;
+    height: 120px;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 120px;
+
+}
+
+.slogan img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whi;
+
+}
+
+.bloc {
+    margin: 0;
+    height: 70px;
+    font-size: 60px;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+
+.Premiere {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+
+.text {
+    width: 400px;
+    margin: 50px;
+}
+
+.gauche {
+    margin: 0;
+}
+
+.droite {
+    margin: 0;
+    height: 100%;
+}
+
+
+.bloc1 {
+    font-size: 25px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.coupon {
+    background-color: #EFF2F6;
+    display: flex;
+    width: 100%;
+    height: 45px;
+    border-color: #c2c4c6;
+    border-width: 1px;
+}
+
+.prix {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gras {
+    font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.clairprix {
+    font-size: 20px;
+    color: #7f7f7f;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+.clair {
+    font-size: 20px;
+    color: #7f7f7f;
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bouton {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.bouton:hover {
+    background-color: #dcc14c;
+    transition: 0.5s;
+}
+
+.article1 {
+    height: 170px;
+    display: flex;
+}
+
+.article2 {
+    height: 170px;
+    display: flex;
+}
+
+.choix {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.choix img {
+    width: 150px;
+}
+
+.information {
+    width: 230px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.information p {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.information b {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+}
+
+.remove {
+    font-family: 'Public Sans', sans-serif;
+    text-decoration: underline;
+    margin: 0;
+    font-size: 20px;
+}
+
+.choix p {
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+.bloc3 {
+    margin: 0px;
+}
+
+.Orderinformation {
+    width: 1400px;
+
+}
+
+.final {
+    width: 450px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bloc2 {
+    width: 400px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.toutdedans {
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+textarea {
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li,
+h2 {
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.f1 {
+    padding-right: 120px;
+}
+
+.f2 {
+    padding-left: 120px;
+}
+
+.centrage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smartphone {
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu-button {
+    background-color: black;
+    border: 0;
+}
+
+.iconmenu {
+    width: 100px;
+}
+
+.menu-container {
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    width: 110px;
+    height: 165px;
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ddd;
+}
+
+.menu-container:hover .dropdown-menu {
+    display: block;
+}
+
+@media (max-width: 769px) {
+    .Orderinformation {
+        width: 480px;
+    }
+
+    .ordinateur {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer h2 {
+        padding-top: 10px;
+    }
+
+    .f1 {
+        padding: 20px;
+    }
+
+    .f2 {
+        padding: 20px;
+    }
+
+
+}
+
+
+@media (min-width:769px) {
+    .smartphone {
+        display: none;
+    }
+}

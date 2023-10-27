@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Static/pageProduit.css" />
+    <link href='https://fonts.googleapis.com/css?family=Public Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>La "Dorée"</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="ordinateur">
+                <div class="navigation-bar">
+                    <div class="slogan">
+                        <img src="Static/img/Logo_SoSwiss.png" alt="">
+                    </div>
+                    <ul style="display: flex;">
+                        <li><a href="index.html" style="text-decoration: none;">
+                                <p>Accueil</p><span class="underline"></span>
+                            </a></li>
+                        <li><a href="shop.html" style="text-decoration: none;">
+                                <p>Article</p><span class="underline"></span>
+                            </a></li>
+                        <li><a href="Panier.html" style="text-decoration: none;">
+                                <p>Panier</p><span class="underline"></span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="smartphone">
+                <div>
+                    <div class="menu-container">
+                        <button class="menu-button">
+                            <img class="iconmenu" src="Static/img/iconmenu.png" alt="">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <a href="index.html"
+                                style="font-size: 30px;  color: white; font-family: 'Public Sans', sans-serif; ">Accueil</a>
+                            <a href="shop.html"
+                                style="font-size: 30px; color: white; font-family: 'Public Sans', sans-serif;">Article</a>
+                            <a href="Panier.html"
+                                style="font-size: 30px; color: white; font-family: 'Public Sans', sans-serif;">Panier</a>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <section class="contenu">
+        <div class="images">
+            <img src="Static/img/Dorée.jpeg" alt="la dorée">
+        </div>
+        <div class="infosProduit">
+            <h1 class="nomProduit">La "Dorée"</h1>
+            <h2 class="prix">1599€</h2>
+            <p class="description">Notre saucisse la plus préstigieuse. Réalisé avec de l'or 24 carats, importé
+                directement de Chine, pour parvenir à cet objet d'exeption.</p>
+            <div class="menusSelection">
+                <input type="number" class="nombreProduits">
+                <select name="taille" id="taille-select" class="tailleProduit">
+                    <option value="">Taille de saucisse</option>
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+            </div>
+            <h3 class="infosComplémentaires">Photo non contractuelle. La saucisse peut différer de celle présentée ici.
+            </h3>
+            <div class="boutonsAchat">
+                <button class="ajouterAuPanier">Ajouter au panier</button>
+                <button class="acheter">Acheter</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contact col">
+            <h2 class="centrage">Contacter nous</h2>
+
+            <textarea name="email" id="email" cols="30" rows="1">Ecrivez votre message...</textarea>
+
+        </div>
+        <section class="footer">
+            <div class="f1 col">
+                <h2 class="centrage">Magazin</h2>
+                <ul>
+                    <li>Hommes</li>
+                    <li>Femmes</li>
+                    <li>Chien</li>
+                    <li>Bijoux</li>
+                    <li>Accessoire</li>
+                    <li>Carte Cadeau</li>
+                </ul>
+            </div>
+
+            <div class="f2 col">
+                <h2 class="centrage">Besoin d'aide ?</h2>
+                <ul>
+                    <li>Faq</li>
+                    <li>Carte</li>
+                    <li>Mention Légal</li>
+
+                </ul>
+
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
